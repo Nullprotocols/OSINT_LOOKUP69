@@ -30,7 +30,7 @@ LOG_CHANNELS = {
 
 APIS = {
     'num': {
-        'url': 'https://num-free-rootx-jai-shree-ram-14-day.vercel.app/?key=lundkinger&number={}',
+        'url': 'https://number-info-ten.vercel.app/?key=lundkinger3&number={}',
         'param': 'number',
         'log': LOG_CHANNELS['num'],
         'desc': 'Mobile number lookup',
@@ -114,11 +114,13 @@ APIS = {
         'extra_blacklist': ['attempt', 'cached', 'owner', 'proxyUsed']
     },
     'tg2num': {
-        'url': 'https://tg2num-owner-api.vercel.app/?userid={}',
+        'url': 'https://tg-to-num-six.vercel.app/?key=rootxsuryansh&q={}',
         'param': 'telegram user ID',
         'log': LOG_CHANNELS['tg2num'],
         'desc': 'Telegram to number lookup',
-        'extra_blacklist': ['credit', 'channel', 'validity']
+        'extra_blacklist': ['credit', 'channel', 'validity', 'note', 'help_group', 'admin', 'owner', 'response_time', 'your_usage_today',
+                           'your_limit', 
+                           ]
     },
 }
 
